@@ -1,0 +1,14 @@
+#ifndef UNTITLED1_LINE_H
+#define UNTITLED1_LINE_H
+
+#include "point.h"
+
+class Line {
+public:
+    Point m_p1;
+    Point m_p2;
+public:
+    Line(Point p1, Point p2);
+};
+
+#endif //UNTITLED1_LINE_H
