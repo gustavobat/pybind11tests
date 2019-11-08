@@ -13,11 +13,11 @@ PYBIND11_MODULE(point, m) {
             [](const Point& pt) {
 
             std::string r("Point: ");
-            r += pt.m_x;
+            r += std::to_string(pt.m_x);
             r += " ";
-            r += pt.m_y;
+            r += std::to_string(pt.m_y);
             r += " ";
-            r += pt.m_z;
+            r += std::to_string(pt.m_z);
             return r;
         }
     );
